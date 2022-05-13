@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:id="@+id/schoolName"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:id="@+id/schoolAddress"
+        android:textStyle="normal"
+        app:layout_constraintTop_toBottomOf="@+id/schoolName"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Admission Priority"
+        android:id="@+id/admissionPriority"
+        app:layout_constraintTop_toBottomOf="@+id/schoolAddress"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:id="@+id/admissionspriority11"
+        android:textStyle="normal"
+        app:layout_constraintTop_toBottomOf="@+id/admissionPriority"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:id="@+id/admissionspriority21"
+        android:textStyle="normal"
+        app:layout_constraintTop_toBottomOf="@+id/admissionspriority11"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:id="@+id/admissionspriority31"
+        android:textStyle="normal"
+        app:layout_constraintTop_toBottomOf="@+id/admissionspriority21"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:id="@+id/schoolName"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:id="@+id/schoolAddress"
+        android:textStyle="normal"
+        app:layout_constraintTop_toBottomOf="@+id/schoolName"
+        android:layout_height="wrap_content"/>
+    <View
+        app:layout_constraintTop_toBottomOf="@+id/schoolAddress"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:layout_height="2dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
